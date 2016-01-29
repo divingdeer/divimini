@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*
+* Theme Name: DiviMini
+* Theme URI: https://github.com/divingdeer/divimini
+* Author: Diving Deer
+* Author URI: http://divingdeer.com
+* Description: Minimal theme using system fonts and using the WordPress REST API for client-side rendering.
+* Version: 1.0
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+    body {
+      color: #000;
+      font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Cantarell", "Oxygen", "Ubuntu", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      font-kerning: normal;
+      text-rendering: optimizelegibility;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      padding: 1em 1em 0 1em;
+    }
+
+    header { 
+      padding: 1em;
+    }
+
+    main, header, nav {
+      max-width: 38em;
+      margin: 0 auto;
+    }
+    
+    h1, h2, h3, h4 {
+      margin: 1.414em 0 0.5em;
+      line-height: 1.2em;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.074rem;
+    }
+
+    h2 {font-size: 1.728rem;}
+
+    h3 {font-size: 1.44rem;}
+
+    h4 {font-size: 1.2rem;}
+
+    small, .ft-small {
+      font-size: 0.833rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+    
+    p:nth-child(2) {
+      font-style: italic;  
+    }
+    
+@media (max-width: 768px) {    
+    p {
+      line-height: 1.7;
+    }
+}
